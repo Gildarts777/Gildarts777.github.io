@@ -10,8 +10,8 @@ authors:
 author_notes: []
 
 # Data di pubblicazione (approssimata al 2025)
-date: '2025'
-publishDate: '2025'
+date: '2025-08-10T00:00:00Z'
+publishDate: '2025-08-10T00:00:00Z'
 
 # Publication type.
 # 1 = Conference paper
