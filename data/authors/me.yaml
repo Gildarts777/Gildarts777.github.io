@@ -88,8 +88,11 @@ skills:
   - name: Hobbies
     items:
       - label: BoardGames
+        level: 4
       - label: Volleyball
+        level: 3
       - label: Bodyweight training
+        level: 2
 languages:
   - name: Italian
     level: 5
