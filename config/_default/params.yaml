@@ -13,15 +13,15 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Aleksandar Fontana"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "Scuola Superiore Sant'Anna"
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "PhD Student in AI & Cybersecurity | LLM Alignment & RL Researcher"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
+    description: "Aleksandar Fontana | PhD Student in AI & Cybersecurity @ Sant'Anna. Researcher in LLM alignment (GTPO), Reinforcement Learning, and vulnerability detection. Expert in PyTorch, Unsloth, and Transformer-based models."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "MakeOwnable"              # Twitter/X handle for Twitter Cards (without @)
@@ -155,7 +155,7 @@ hugoblox:
   content:
     # Math rendering
     math:
-      enable: false
+      enable: true
     # Table of contents
     toc:
       enable: true
@@ -229,8 +229,8 @@ hugoblox:
   # Source code repository for "Edit this page" links
   # ────────────────────────────────────────────────────────────────────────────
   repository:
-    enable: false
-    url: ""                             # e.g., https://github.com/username/repo
+    enable: true
+    url: "https://github.com/Gildarts777/Gildarts777.github.io"                             # e.g., https://github.com/username/repo
     branch: main
     content_dir: content
 
