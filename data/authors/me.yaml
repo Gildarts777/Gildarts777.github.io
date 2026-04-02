@@ -85,7 +85,11 @@ skills:
         level: 4
       - label: Unsloth
         level: 4
-
+  - name: Hobbies
+    items:
+      - label: BoardGames
+      - label: Volleyball
+      - label: Bodyweight training
 languages:
   - name: Italian
     level: 5

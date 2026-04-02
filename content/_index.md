@@ -41,7 +41,7 @@ sections:
       title: '📚 My Research & Work'
       subtitle: ''
       text: |-
-        I am a PhD student in AI and Cybersecurity at Scuola Superiore Sant'Anna. My primary research focuses on stabilizing Large Language Model alignment. Recently, I proposed GTPO, a trajectory-based policy optimization algorithm that resolves conflicting preference gradients during training 
+        I am a PhD student in AI and Cybersecurity at Scuola Superiore Sant'Anna. My primary research focuses on stabilizing Large Language Model alignment. Recently, I proposed GTPO, a trajectory-based policy optimization algorithm that resolves conflicting preference gradients during training. 
 
         I also apply these techniques to the cybersecurity domain, using Group Relative Policy Optimization (GRPO) to enhance LLM reasoning for software vulnerability detection. On the practical side, I work as an AI Consultant, architecting custom Transformer-based models to classify cyber attacks.
 
@@ -49,56 +49,73 @@ sections:
     design:
       columns: '1'
 
+  # ─── SEZIONE 1: JOURNAL ARTICLES ──────────────────────────────────────────
   - block: collection
-    id: papers
+    id: journals
     content:
-      title: Featured Publications
+      title: Journal Articles
       filters:
         folders:
           - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
+        # 2 = Journal article
+        publication_type: 'Journal-article' 
     design:
       view: citation
 
+  # ─── SEZIONE 2: CONFERENCE PAPERS ─────────────────────────────────────────
   - block: collection
-    id: news
+    id: conferences
     content:
-      title: Notes & Updates
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
+      title: Conference Papers
       filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+        folders:
+          - publication
+        # 1 = Conference paper
+        publication_type: 'Conference-paper'
     design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      view: citation
+
+  # ─── SEZIONE 3: PREPRINTS & ARXIV ─────────────────────────────────────────
+  - block: collection
+    id: preprints
+    content:
+      title: Preprints & Working Papers
+      filters:
+        folders:
+          - publication
+        # 3 = Preprint / Working Paper
+        publication_type: 'Arxiv-paper'
+    design:
+      view: citation
+
+
+  # - block: collection
+  #   id: news
+  #   content:
+  #     title: Notes & Updates
+  #     subtitle: ''
+  #     text: ''
+  #     # Page type to display. E.g. post, talk, publication...
+  #     page_type: post
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       author: ''
+  #       category: ''
+  #       tag: ''
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ''
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: card
+  #     # Reduce spacing
+  #     spacing:
+  #       padding: [0, 0, 0, 0]
 ---
