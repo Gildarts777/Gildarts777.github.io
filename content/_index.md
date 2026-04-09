@@ -69,8 +69,8 @@ sections:
       title: Conference Papers
       filters:
         folders:
-          - publication
-        # 1 = Conference paper
+          - publication/Conference
+
         publication_type: 'Conference-paper'
     design:
       view: citation
