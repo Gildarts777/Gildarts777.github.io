@@ -49,18 +49,18 @@ sections:
     design:
       columns: '1'
 
-  # ─── SEZIONE 1: JOURNAL ARTICLES ──────────────────────────────────────────
-  - block: collection
-    id: journals
-    content:
-      title: Journal Articles
-      filters:
-        folders:
-          - publications
-        # 2 = Journal article
-        publication_type: 'Journal-article' 
-    design:
-      view: citation
+  # # ─── SEZIONE 1: JOURNAL ARTICLES ──────────────────────────────────────────
+  # - block: collection
+  #   id: journals
+  #   content:
+  #     title: Journal Articles
+  #     filters:
+  #       folders:
+  #         - publications
+  #       # 2 = Journal article
+  #       publication_type: 'article-paper' 
+  #   design:
+  #     view: citation
 
   # ─── SEZIONE 2: CONFERENCE PAPERS ─────────────────────────────────────────
   - block: collection
