@@ -70,7 +70,7 @@ sections:
       filters:
         folders:
           - Publications
-        publication_type: 'Conference-paper'
+        publication_type: 'paper-conference'
     design:
       view: citation
 
@@ -83,7 +83,7 @@ sections:
         folders:
           - Publications
         # 3 = Preprint / Working Paper
-        publication_type: 'Arxiv-paper'
+        publication_type: 'article-arxiv'
     design:
       view: citation
 
