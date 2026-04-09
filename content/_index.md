@@ -56,7 +56,7 @@ sections:
       title: Journal Articles
       filters:
         folders:
-          - Publications
+          - publications
         # 2 = Journal article
         publication_type: 'Journal-article' 
     design:
@@ -69,7 +69,7 @@ sections:
       title: Conference Papers
       filters:
         folders:
-          - Publications
+          - publications
         publication_type: 'paper-conference'
     design:
       view: citation
@@ -81,7 +81,7 @@ sections:
       title: Preprints & Working Papers
       filters:
         folders:
-          - Publications
+          - publications
         # 3 = Preprint / Working Paper
         publication_type: 'article-arxiv'
     design:
