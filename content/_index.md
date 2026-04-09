@@ -21,6 +21,7 @@ sections:
         url: uploads/resume.pdf
       headings:
         about: ''
+        experience: ''
         education: ''
         interests: ''
     design:
