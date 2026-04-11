@@ -20,12 +20,12 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      # AGGIUNGI QUESTO: Controlla manualmente lo spazio (Top, Right, Bottom, Left)
+      spacing:
+        padding: ['2rem', '0', '2rem', '0'] 
       background:
         gradient_mesh:
           enable: true
-      # Name heading sizing to accommodate long or short names
-      # Hugo date format
       date_format: 'January 2006'
       name:
         size: md # Options: xs, sm, md, lg (default), xl
@@ -86,7 +86,13 @@ sections:
     design:
       view: citation
 
-
+  # ─── SEZIONE ESPERIENZA ─────────────────────────────────────────
+  - block: resume-experience
+    content:
+      title: Experience
+      username: me
+    design:
+      date_format: 'January 2006'
   # - block: collection
   #   id: news
   #   content:

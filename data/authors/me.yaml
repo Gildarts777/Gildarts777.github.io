@@ -34,20 +34,6 @@ interests:
   - Cybersecurity & Vulnerability Detection
   - Deep Learning & NLP
 
-experience:
-  - role: AI Consultant
-    org: Netgroup S.p.A., Naples
-    start: 2025-11-01
-    end: ""
-    summary: |
-      Architected and trained a custom Transformer-based model from scratch leveraging proprietary tabular datasets to predict and classify cybersecurity attacks.
-  - role: AI/NLP Research Intern
-    org: Serco Italia S.p.A, Rome
-    start: 2023-10-01
-    end: 2024-04-01
-    summary: |
-      Engineered and fine-tuned a specialized LLM for deployment on resource-constrained hardware, implementing advanced optimization techniques to reduce model footprint and latency.
-
 education:
   - degree: PhD in AI and Cybersecurity
     institution: Scuola Superiore Sant'Anna
@@ -67,6 +53,20 @@ education:
     end: 2021-07-01
     summary: |
       Thesis: "Quantum computing and cosmology of the early universe"
+
+experience:
+  - role: AI Consultant
+    org: Netgroup S.p.A., Naples
+    start: 2025-11-01
+    end: ""
+    summary: |
+      Architected and trained a custom Transformer-based model from scratch leveraging proprietary tabular datasets to predict and classify cybersecurity attacks.
+  - role: AI/NLP Research Intern
+    org: Serco Italia S.p.A, Rome
+    start: 2023-10-01
+    end: 2024-04-01
+    summary: |
+      Engineered and fine-tuned a specialized LLM for deployment on resource-constrained hardware, implementing advanced optimization techniques to reduce model footprint and latency.
 
 skills:
   - name: Core Competencies
