@@ -10,17 +10,15 @@ design:
   spacing: '6rem'
 
 sections:
+  # ─── 1. BIOGRAFIA ───────────────────────────────────────────────────────
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      # AGGIUNGI QUESTO: Controlla manualmente lo spazio (Top, Right, Bottom, Left)
       spacing:
         padding: ['2rem', '0', '2rem', '0'] 
       background:
@@ -28,13 +26,20 @@ sections:
           enable: true
       date_format: 'January 2006'
       name:
-        size: md # Options: xs, sm, md, lg (default), xl
-      # Avatar customization
+        size: md 
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
-      is_education_first: false
+        size: medium 
+        shape: circle 
 
+  # ─── 2. ESPERIENZA SPOSTATA IN ALTO ─────────────────────────────────────
+  - block: resume-experience
+    content:
+      title: Experience
+      username: me
+    design:
+      date_format: 'January 2006'
+
+  # ─── 3. TESTO DI RICERCA E LAVORO ───────────────────────────────────────
   - block: markdown
     content:
       title: '📚 My Research & Work'
@@ -48,6 +53,30 @@ sections:
     design:
       columns: '1'
 
+  # ─── 4. CONFERENCE PAPERS ───────────────────────────────────────────────
+  - block: collection
+    id: conferences
+    content:
+      title: Conference Papers
+      filters:
+        folders:
+          - publications
+        publication_type: 'paper-conference'
+    design:
+      view: citation
+
+  # ─── 5. PREPRINTS & ARXIV ───────────────────────────────────────────────
+  - block: collection
+    id: preprints
+    content:
+      title: Preprints & Working Papers
+      filters:
+        folders:
+          - publications
+        publication_type: 'article-arxiv'
+    design:
+      view: citation
+---
   # # ─── SEZIONE 1: JOURNAL ARTICLES ──────────────────────────────────────────
   # - block: collection
   #   id: journals
@@ -61,38 +90,6 @@ sections:
   #   design:
   #     view: citation
 
-  # ─── SEZIONE 2: CONFERENCE PAPERS ─────────────────────────────────────────
-  - block: collection
-    id: conferences
-    content:
-      title: Conference Papers
-      filters:
-        folders:
-          - publications
-        publication_type: 'paper-conference'
-    design:
-      view: citation
-
-  # ─── SEZIONE 3: PREPRINTS & ARXIV ─────────────────────────────────────────
-  - block: collection
-    id: preprints
-    content:
-      title: Preprints & Working Papers
-      filters:
-        folders:
-          - publications
-        # 3 = Preprint / Working Paper
-        publication_type: 'article-arxiv'
-    design:
-      view: citation
-
-  # ─── SEZIONE ESPERIENZA ─────────────────────────────────────────
-  - block: resume-experience
-    content:
-      title: Experience
-      username: me
-    design:
-      date_format: 'January 2006'
   # - block: collection
   #   id: news
   #   content:
@@ -122,4 +119,3 @@ sections:
   #     # Reduce spacing
   #     spacing:
   #       padding: [0, 0, 0, 0]
----
