@@ -1,4 +1,4 @@
-/* Nasconde la sezione Education SOLO dal blocco biografia in alto per risparmiare spazio */
-.resume-biography-3 .education-section {
+/* Nasconde il contenitore mb-16 solo se racchiude il titolo dell'Education */
+div.mb-16:has(h3.tracking-tight) {
     display: none !important;
 }
