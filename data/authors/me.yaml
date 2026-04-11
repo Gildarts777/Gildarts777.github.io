@@ -29,10 +29,14 @@ links:
     url: https://scholar.google.com/citations?user=mXVJb50AAAAJ&hl=it
 
 interests:
+  - Deep Learning
+  - Natural Language Processing (NLP)
   - Large Language Models (LLMs)
   - Reinforcement Learning (RL)
-  - Cybersecurity & Vulnerability Detection
-  - Deep Learning & NLP
+  - Policy based techniques (e.g. PPO, GRPO)
+  - Physics of Complex Systems
+  - Fractal Analysis
+  - Cybersecurity
 
 education:
   - degree: PhD in AI and Cybersecurity
