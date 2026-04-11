@@ -1,0 +1,4 @@
+/* Nasconde la sezione Education SOLO dal blocco biografia in alto per risparmiare spazio */
+.resume-biography-3 .education-section {
+    display: none !important;
+}
