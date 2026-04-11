@@ -39,19 +39,19 @@ sections:
     design:
       date_format: 'January 2006'
 
-  # ─── 3. TESTO DI RICERCA E LAVORO ───────────────────────────────────────
-  - block: markdown
-    content:
-      title: '📚 My Research & Work'
-      subtitle: ''
-      text: |-
-        I am a PhD student in AI and Cybersecurity at Scuola Superiore Sant'Anna. My primary research focuses on stabilizing Large Language Model alignment. Recently, I proposed GTPO, a trajectory-based policy optimization algorithm that resolves conflicting preference gradients during training. 
+  # # ─── 3. TESTO DI RICERCA E LAVORO ───────────────────────────────────────
+  # - block: markdown
+  #   content:
+  #     title: '📚 My Research & Work'
+  #     subtitle: ''
+  #     text: |-
+  #       I am a PhD student in AI and Cybersecurity at Scuola Superiore Sant'Anna. My primary research focuses on stabilizing Large Language Model alignment. Recently, I proposed GTPO, a trajectory-based policy optimization algorithm that resolves conflicting preference gradients during training. 
 
-        I also apply these techniques to the cybersecurity domain, using Group Relative Policy Optimization (GRPO) to enhance LLM reasoning for software vulnerability detection. On the practical side, I work as an AI Consultant, architecting custom Transformer-based models to classify cyber attacks.
+  #       I also apply these techniques to the cybersecurity domain, using Group Relative Policy Optimization (GRPO) to enhance LLM reasoning for software vulnerability detection. On the practical side, I work as an AI Consultant, architecting custom Transformer-based models to classify cyber attacks.
 
-        Feel free to reach out to collaborate 😃
-    design:
-      columns: '1'
+  #       Feel free to reach out to collaborate 😃
+  #   design:
+  #     columns: '1'
 
   # ─── 4. CONFERENCE PAPERS ───────────────────────────────────────────────
   - block: collection
