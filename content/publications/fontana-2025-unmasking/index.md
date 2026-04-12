@@ -29,7 +29,7 @@ publication_short: ''
 
 doi: ''
 
-abstract: ''
+abstract: 'Understanding and controlling the behavior of Large Language Models (LLMs) is crucial for their reliable use in software vulnerability detection. While LLMs show promising zero-shot capabilities, our analysis shows that they often behave inconsistently by over-predicting vulnerabilities, overlooking real vulnerabilities in domain shifts. In this paper, we approach vulnerability detection as a behavior shaping problem. We apply Group Relative Policy Optimization (GRPO) to guide the behavior of models through structured rule-based rewards. Our reward verifiers target both the accuracy of predictions and the coherence of explanations, encouraging the model to develop stable and trustworthy decision patterns. Through experiments on BigVul, DiverseVul and CleanVul benchmarks, we show that behavior shaping with GRPO improves the model’s ability to generalize across projects, programming languages, and data quality levels. Furthermore, we show that tuning the regularization’s strength of the Kullback–Leibler (KL) divergence enables a balance between risk-seeking and risk-averse behavior, reducing false negatives without overwhelming users with false positives.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -46,7 +46,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://link.springer.com/chapter/10.1007/978-3-032-00639-4_18'
 url_video: ''
 
 # Custom links (uncomment lines below)
@@ -69,4 +69,3 @@ image:
 projects: []
 ---
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

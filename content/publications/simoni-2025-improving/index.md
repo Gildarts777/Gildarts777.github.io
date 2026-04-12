@@ -1,6 +1,5 @@
 ---
-title: Improving LLM Reasoning for Vulnerability Detection via Group Relative Policy
-  Optimization
+title: Improving LLM Reasoning for Vulnerability Detection via Group Relative Policy Optimization
 
 # Authors
 # A YAML list of author names
@@ -32,7 +31,9 @@ publication_short: ''
 
 doi: ''
 
-abstract: ''
+abstract: 'Improving and understanding the training dynamics and reasoning of Large Language Models (LLMs) has become essential for their deployment in AI-based security tools, such as software vulnerability detection. In this work, we present an extensive study aimed at advancing recent RL-based finetuning techniques for LLMs in the context of vulnerability detection.
+We start by highlighting key limitations of commonly adopted LLMs, such as their tendency to over-predict certain types of vulnerabilities while failing to detect others. To address this challenge, we explore the use of Group Relative Policy Optimization (GRPO), a recent policy-gradient method, for guiding LLM behavior through structured, rule-based rewards. We enable its application to the vulnerability detection task by redefining its advantage functions and reward signals using annotations from widely used datasets in the field, including BigVul, DiverseVul, and CleanVul.
+The proposed methodology enables an extensive set of experiments, addressing multiple research questions regarding the impact of GRPO on generalization, reasoning capabilities, and performance improvements over standard supervised finetuning (SFT). Our findings offer valuable insights into the potential of RL-based training to enhance both the performance and reasoning abilities of LLMs in the context of software vulnerability detection.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -43,7 +44,7 @@ tags: []
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2507.03051'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -72,4 +73,3 @@ image:
 projects: []
 ---
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
