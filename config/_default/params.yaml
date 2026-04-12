@@ -126,8 +126,7 @@ hugoblox:
   # Search engine optimization - overrides and technical settings
   # ────────────────────────────────────────────────────────────────────────────
   seo:
-    # Browser tab title override (defaults to identity.name if not set)
-    title: ""
+    title: "Aleksandar Fontana - AI & Cybersecurity Researcher | CV"
     # For local_business identity type only
     location:
       address:
@@ -145,8 +144,8 @@ hugoblox:
       allow:
         - /
       disallow: []
-      note: "Guidance for AI crawlers - customize to match your public content."
-      contact: ""
+      note: "Official curriculum vitae and research portfolio of Aleksandar Fontana, PhD Student in AI & Cybersecurity at Sant'Anna. Core topics: LLM alignment, Reinforcement Learning (GTPO, GRPO), and vulnerability detection."
+      contact: "aleksandar.fontana@gmail.com"
 
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT
@@ -217,7 +216,7 @@ hugoblox:
   # Search engine site verification codes
   # ────────────────────────────────────────────────────────────────────────────
   verification:
-    google: ""
+    google: "oGJUjw3SV7UdsHRC2xxi4Wq_UGmrvt2iucwBf-eBR4Q"
     bing: ""
     baidu: ""
     yandex: ""
