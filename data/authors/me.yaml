@@ -37,6 +37,7 @@ interests:
   - Physics of Complex Systems
   - Fractal Analysis
   - Cybersecurity
+  - Videogames
 
 education:
   - degree: PhD in AI and Cybersecurity
@@ -71,6 +72,12 @@ experience:
     end: 2024-04-01
     summary: |
       Engineered and fine-tuned a specialized LLM for deployment on resource-constrained hardware, implementing advanced optimization techniques to reduce model footprint and latency.
+  - role: Head of Board & Community Manager
+    org: Element Gaming
+    start: 2016-01-01
+    end: ""
+    summary: |
+      Led community operations for a non-profit multigaming association, coordinating a network of 100+ affiliated content creators.
 
 skills:
   - name: Core Competencies
@@ -89,6 +96,18 @@ skills:
         level: 4
       - label: Unsloth
         level: 4
+      - label: TRL
+        level: 4
+  - name: Leadership & Soft Skills
+    items:
+      - label: Team Leadership
+        level: 5
+      - label: Community Management
+        level: 5
+      - label: Event Coordination
+        level: 4
+      - label: Effective Communication
+        level: 5
   - name: Hobbies
     items:
       - label: BoardGames
